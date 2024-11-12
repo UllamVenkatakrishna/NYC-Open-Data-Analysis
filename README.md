@@ -35,3 +35,44 @@ This project aims to analyze and visualize school data to understand trends in s
 To install required libraries, run:
 ```bash
 pip install pandas matplotlib seaborn plotly.
+```
+
+# Steps to Set Up and Run the Project
+
+## Clone the Repository
+
+```bash
+git clone https://https://github.com/UllamVenkatakrishna/NYC-Open-Data-Analysis.git
+cd School_Data_Analysis
+```
+
+## Prepare Data Files
+
+- Place `school_data.csv` in the same directory as the notebook.
+- Adjust the file path in the notebook if stored in a different location.
+
+## Open and Run the Notebook
+
+1. **Start Jupyter Notebook:**
+
+    ```bash
+    # Launch Jupyter Notebook to open the project notebook
+    jupyter notebook notebook.ipynb
+    ```
+
+2. **Run Each Cell in Sequence:**
+
+    - **Data Import**: Loads the school dataset.
+    - **Data Cleaning**: Checks for and handles missing values, standardizes school information.
+    - **Comparative Analysis**: Visualizes enrollment changes by year and grade.
+    - **Interactive Map (Optional)**: Plots schools on a map based on location data, if available.
+
+## Version Control Strategy
+
+### Branch
+Each team member should work on a separate branch based on their task (e.g., `data-cleaning`, `analysis`, `visualization`).
+To create a branch, use:
+
+```bash
+git checkout -b branch-name
+```
