@@ -1,14 +1,14 @@
-# Project Title: School Data Analysis and Visualization
+# Project Title: School Transportation and Routes Analysis
 
 ## Project Description
-This project aims to analyze and visualize school data to understand trends in student enrollment and grade distributions across different years. Using a dataset with information on school names, years, and grades, the project presents findings on an interactive map. The primary objectives are to:
-- Identify enrollment patterns
-- Compare grades across schools
-- Create a user-friendly visualization for educational stakeholders.
+This project aims to analyze and visualize school transportation data to understand trends in modes of students travelling medium and sites. Also it's future aim is to contribute in decreasing the traffic per route and also decreasing the traffic per bus.Using a dataset with information on school names, years, OPT code, longitude, latitude and route number. The project presents findings on an interactive map. The primary objectives are to:
+- Identify patterns
+- Compare number of people per route
+- Create a user-friendly visualization for the stakeholders.
 
 ## Features
-- **Data Cleaning and Preprocessing**: Ensures accurate, complete data by handling missing values and standardizing school information.
-- **Comparative Analysis by Year and Grade**: Analyzes and visualizes changes in student enrollment across multiple years and grades.
+- **Data Cleaning and Preprocessing**: Ensures accurate, complete data by handling missing values and standardizing the traveling information.
+- **Comparative Analysis by Route and Schools**: Analyzes and visualizes changes in traveling modes across multiple years and grades.
 
 ## Programming Language
 - **Python**
@@ -20,8 +20,11 @@ This project aims to analyze and visualize school data to understand trends in s
 
 ## Project Structure
 - **notebook.ipynb**: Main Jupyter notebook containing data loading, cleaning, and analysis.
+
 - **Data Files**:
-  - `school_data.csv`: Main dataset file with information on school names, years, and grades.
+  - `PreK_Riders_by_Transportation_Site_20241020`
+  - `Routes_by_Transportation_Sites_20241020`
+  - `Transportation_Sites_20241020`
 
 ## Prerequisites
 1. **Python 3.x**
@@ -48,7 +51,7 @@ cd School_Data_Analysis
 
 ## Prepare Data Files
 
-- Place `school_data.csv` in the same directory as the notebook.
+- Place `PreK_Riders_by_Transportation_Site_20241020`, `Routes_by_Transportation_Sites_20241020`,`Transportation_Sites_20241020` in the same directory as the notebook.
 - Adjust the file path in the notebook if stored in a different location.
 
 ## Open and Run the Notebook
@@ -63,8 +66,8 @@ cd School_Data_Analysis
 2. **Run Each Cell in Sequence:**
 
     - **Data Import**: Loads the school dataset.
-    - **Data Cleaning**: Checks for and handles missing values, standardizes school information.
-    - **Comparative Analysis**: Visualizes enrollment changes by year and grade.
+    - **Data Cleaning**: Checks for and handles missing values, standardize the traveling information.
+    - **Comparative Analysis**: Visualizes mode of transportation and route changes by year and school name.
     - **Interactive Map (Optional)**: Plots schools on a map based on location data, if available.
 
 ## Version Control Strategy
