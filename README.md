@@ -74,5 +74,5 @@ Each team member should work on a separate branch based on their task (e.g., `da
 To create a branch, use:
 
 ```bash
-git checkout -b branch-name
+git checkout -b data-analysis-nyc-open-data
 ```
